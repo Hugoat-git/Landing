@@ -1,0 +1,75 @@
+.avatar1 {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.avatar2 {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.avatar3 {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.avatar4 {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+
+.image-container {
+text-align: center;
+max-width: 200px;
+}
+
+.image-container img {
+width: 100%;
+height: auto;
+}
+
+.image-container figcaption {
+margin-top: 8px;
+font-size: 0.9em;
+color: black;
+display: none;
+}
+
+.avatar-card {
+    background-color: white; /* Couleur de fond de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    width: 100%; /* Prend toute la largeur du conteneur */
+    max-width: 600px; /* Largeur maximale pour ne pas dépasser un certain point */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: transform 0.2s; /* Transition pour l'effet de survol */
+    margin-top: 20px; /* Espace entre la carte et tout élément au-dessus */
+}
+
+
+.avatar-card:hover {
+    transform: translateY(-5px); /* Légère élévation au survol */
+}
+
+
+
+
